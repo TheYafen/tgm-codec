@@ -65,3 +65,4 @@ with open('bin_reply.bin', 'rb') as f:
     while byte != b'':
         res += byte
         byte = f.read(1)
+#################
