@@ -58,10 +58,16 @@ m_direction = {
 }
     
 res = b''
-
+summed = 1
 
 with open('bin_reply.bin', 'rb') as f:
     byte = f.read(1)
     while byte != b'':
         res += byte
         byte = f.read(1)
+        
+def connect_bytes(address, size):
+    for i in range(size/8):
+        pass
+
+
