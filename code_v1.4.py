@@ -136,7 +136,7 @@ print(req)
 while True:
     sock.send(req)
     sleep(1)
-    data = sock.recv(70)
+    data = sock.recv(130)
     print(data)
     sleep(0)
     break
