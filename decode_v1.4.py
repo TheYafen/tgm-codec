@@ -69,5 +69,3 @@ with open('bin_reply.bin', 'rb') as f:
 def connect_bytes(address, size):
     for i in range(size/8):
         pass
-
-
